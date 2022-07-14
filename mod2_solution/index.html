@@ -11,19 +11,58 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+div{
+  background-color: darkgray;
+  height:150px
+
 }
 
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
   font-family: Helvetica;
-  color: white;
+margin-top: 40px;
 }
+
+#p1{
+  background-color: lightpink;
+  float: right;
+  margin: auto;
+  clear: left;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+
+
+}
+
+#p2{
+  background-color: mediumvioletred;
+    color: white;
+  float: right;
+  margin: auto;
+  clear: left;
+  height: 30px;
+  width: 80px;
+    text-align: center;
+
+
+}
+
+#p3{
+  background-color: lightyellow;
+  float: right;
+  margin: auto;
+  clear: left;
+  height: 30px;
+  width: 80px;
+    text-align: center;
+    position: relative;
+
+}
+
 
 /* Simple Responsive Framework. */
 .row {
@@ -167,12 +206,40 @@ p {
 </style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1>菜谱</h1>
 
 <div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12"><p>Item 1</p></div>
-  <div class="col-lg-4 col-md-6 col-sm-12""><p>Item 2</p></div>
-  <div class="col-lg-4 col-md-6 col-sm-12""><p>Item 3</p></div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <p id=p1>
+      
+      宫保鸡丁
+    </p>
+
+    <p>
+      
+      宫保鸡丁是四川的传统名菜，传说是清末时由太子少保丁宝桢的家厨创制而成。有时他忙于公务回府晚，家厨摸准了大人的脾气，便在厨房内随手抓些现成的鸡丁、辣子及花生米之类，热锅快炒后送上，甚得丁大人欢心。
+    </p>
+
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12"">
+    <p id=p2>
+      鱼香肉丝
+    </p>
+
+    <p>
+Yuxiang shredded pork (simplified Chinese: 鱼香肉丝; traditional Chinese: 魚香肉絲; pinyin: yúxiāng ròusī; sometimes translated as fish-flavored pork slices, or more vaguely as shredded pork with garlic sauce) is a common dish in Sichuan cuisine. 
+    </p>
+  </div>
+
+  <div class="col-lg-4 col-md-12 col-sm-12"">
+    <p id=p3>
+      粉蒸肉
+    </p>
+    <p>
+      粉蒸肉（又名面面肉）是广泛流行于中国南方地区的的汉族传统名菜之一、是江西名菜，另在川菜、湘菜、浙菜等中都有这一菜式。以主料带皮五花肉加米粉和其他调味料制作而成。
+    </p>
+  </div>
 
 </div>
 
